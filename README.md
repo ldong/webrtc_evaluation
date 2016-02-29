@@ -32,7 +32,7 @@ Record WebRTC on Client side is booming, i.e. [muaz-khan/RecordRTC](github.com/m
 	1. Free and open sourced
 	2. Recording functionality
 
-So, I decided to go try Kurenton
+So, I decided to go and try Kurenton
 
 ## Install Kurenton on Ubuntu
 1. `sudo apt-get install build-essential`
@@ -84,7 +84,7 @@ So, I decided to go try Kurenton
 9. `mkdir jss` and copy `kurento-utils.js` to jss directory
 10. change `getUserMedia` to `navigator.getUserMedia` in `kurento-utils.js`
 11. Replace `<script src="./js/kurento-utils.js"></script>` to `<script src="./jss/kurento-utils.js"></script>` in `index.html`
-12. Run `mvn compile exec:java` again and open `https://localhost:8443/`
+12. Run `mvn compile exec:java` again and open `https://localhost:8443/`, make sure `sudo service kurento-media-server-6.0 start` is running
 
 PS: modified version of kurento-utils.js and adapter.js are attached in js_files directory for your convenience
 
