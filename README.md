@@ -93,6 +93,17 @@ wget https://raw.githubusercontent.com/ldong/webrtc_evaluation/master/js_files/a
 wget https://raw.githubusercontent.com/ldong/webrtc_evaluation/master/js_files/kurento-utils.js
 ```
 
+## Debug
+* Check if [Kurento is running or not](http://stackoverflow.com/questions/34627136/kurento-example-error/34670904#34670904)
+
+    ```
+    netstat -ltnp
+    sudo service kurento-media-server-6.0 starto
+    netstat -ltnp
+    # see if port 8888 is open or not, open means kurento-server is running
+    ```
+
+
 ## Reference
 1. [oovoo alternative](http://alternativeto.net/software/oovoo/?license=opensource)
 2. [Kurento Docs](http://doc-kurento.readthedocs.org/en/stable/tutorials/java/tutorial-helloworld.html)
