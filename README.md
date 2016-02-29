@@ -97,3 +97,5 @@ wget https://raw.githubusercontent.com/ldong/webrtc_evaluation/master/js_files/k
 1. [oovoo alternative](http://alternativeto.net/software/oovoo/?license=opensource)
 2. [Kurento Docs](http://doc-kurento.readthedocs.org/en/stable/tutorials/java/tutorial-helloworld.html)
 3. [Tutorial: Video Call 1 to 1 with recording](http://doc-kurento.readthedocs.org/en/stable/tutorials/java/tutorial-one2one-adv.html)
+4. [Kurento应用开发指南(以Kurento 5.0为模板) 之五：kurento架构 - 北雨南萍 - 博客频道 - CSDN.NET](http://blog.csdn.net/fireroll/article/details/47661527)
+5. [KurentoSetup](https://github.com/jrstv/Development/wiki/KurentoSetup)
