@@ -37,7 +37,7 @@ So, I decided to go and try Kurenton
 ## Install Kurenton on Ubuntu
 1. `sudo apt-get install build-essential openjdk-7-jdk maven`
 2. `echo "export JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk-amd64"` > .bashrc
-3. `curl -sL https://deb.nodesource.com/setup | sudo bash - ;sudo apt-get install -y nodejs; npm install -g bower`
+3. `curl -sL https://deb.nodesource.com/setup | sudo bash - ;sudo apt-get install -y nodejs; sudo npm install -g bower`
 4.  Install Kurento 6.0
 
     ```
@@ -87,6 +87,11 @@ So, I decided to go and try Kurenton
 12. Run `mvn compile exec:java` again and open `https://localhost:8443/`, make sure `sudo service kurento-media-server-6.0 start` is running
 
 PS: modified version of kurento-utils.js and adapter.js are attached in js_files directory for your convenience
+
+```
+wget https://raw.githubusercontent.com/ldong/webrtc_evaluation/master/js_files/adapter.js
+wget https://raw.githubusercontent.com/ldong/webrtc_evaluation/master/js_files/kurento-utils.js
+```
 
 ## Reference
 1. [oovoo alternative](http://alternativeto.net/software/oovoo/?license=opensource)
