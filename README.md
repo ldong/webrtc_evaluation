@@ -35,9 +35,9 @@ Record WebRTC on Client side is booming, i.e. [muaz-khan/RecordRTC](github.com/m
 So, I decided to go and try Kurenton
 
 ## Install Kurenton on Ubuntu
-1. `sudo apt-get install build-essential`
-2. `sudo apt-get install openjdk-7-jdk`
-3. `export JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk-amd64` > .bashrc
+1. `sudo apt-get install build-essential openjdk-7-jdk maven`
+2. `echo "export JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk-amd64"` > .bashrc
+3. `curl -sL https://deb.nodesource.com/setup | sudo bash - ;sudo apt-get install -y nodejs; npm install -g bower`
 4.  Install Kurento 6.0
 
     ```
@@ -53,7 +53,7 @@ So, I decided to go and try Kurenton
 
     ```
     git clone https://github.com/Kurento/kurento-tutorial-java.git
-    cd kurento-tutorial-java/kurento-one2one-call-advanced
+    cd kurento-tutorial-java/kurento-one2one-call-recording/
     git checkout 6.2.1
     mvn compile exec:java
     ```
